@@ -7,11 +7,11 @@ const PORT = process.env.PORT || 3000;
 // Configuración básica para Nodemailer
 // create reusable transporter object using the default SMTP transport
 const transporter = nodemailer.createTransport({
-    port: 465,               // true for 465, false for other ports
-    host: "smtp.gmail.com",
+    port: 587,               // true for 465, false for other ports
+    host: "smtp.mailersend.net",
        auth: {
-            user: 'nicolasaddamo1@gmail.com',
-            pass: 'cyow zvqq zqfr nrpi',
+            user: 'MS_NEHdG6@trial-3zxk54vy8rp4jy6v.mlsender.net@gmail.com',
+            pass: 'yfJ2UsvHwadI1OeA',
          },
     secure: true,
     });
