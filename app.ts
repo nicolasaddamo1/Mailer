@@ -14,7 +14,7 @@ const mailerSend = new MailerSend({
 const enviarCorreo = async () => {
   try {
     // Detalles del remitente
-    const sentFrom = new Sender("MS_Y8EZai@trial-3zxk54vy8rp4jy6v.mlsender.net", "Tu x");
+    const sentFrom = new Sender("MS_Y8EZai@trial-3zxk54vy8rp4jy6v.mlsender.net", "Nico");
 
     // Detalles del destinatario
     const recipients = [

@@ -25,7 +25,7 @@ const mailerSend = new mailersend_1.MailerSend({
 const enviarCorreo = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         // Detalles del remitente
-        const sentFrom = new mailersend_1.Sender("MS_Y8EZai@trial-3zxk54vy8rp4jy6v.mlsender.net", "Tu x");
+        const sentFrom = new mailersend_1.Sender("MS_Y8EZai@trial-3zxk54vy8rp4jy6v.mlsender.net", "Nico");
         // Detalles del destinatario
         const recipients = [
             new mailersend_1.Recipient("nicolasaddamo1@gmail.com", "Nombre del Destinatario")
